@@ -3,6 +3,9 @@
   <name>Build</name>
   <description />
   <settings>
+    <options>
+      <option name="artifactRules" value="target/plaindoll-0.0.2.jar" />
+    </options>
     <build-runners>
       <runner id="Maven2" name="Deploy" type="Maven2">
         <conditions>
